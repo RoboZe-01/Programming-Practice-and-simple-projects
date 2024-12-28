@@ -1,4 +1,4 @@
-
+Language used : Python 
 
 # Fizz Buzz Problem  : In this Print number from 1 to 100 however when the number will be divisible by 3
 # print fizz and when number is divisible 5 print buzz
