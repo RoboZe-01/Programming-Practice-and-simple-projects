@@ -18,4 +18,6 @@ Eg if the num = 6, den = 9 the answer should be ⅔
 Eg if the email is nitish24singh@gmail.com then the username should be nitish24singh
 
 10.Count the frequency of a particular character in a provided string. Eg 'hello how are you' is the string, the frequency of h in this string is 2.
-11.
+11.Assume a list with numbers from 1 to 10 and then convert it into a dictionary where the key would be the numbers of the list and the values would be the square of those numbers.
+12.Write  a program that will tell whether the given number is divisible by 3 & 6.
+13.Write a program that will take three digits from the user and add the square of each digit.
