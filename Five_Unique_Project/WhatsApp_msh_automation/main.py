@@ -98,4 +98,5 @@ def schedule_message():
 # Main program
 if __name__ == "__main__":
     print("Welcome to WhatsApp Message Automation!")
-    schedule_message()
+    schedule_message() 
+
