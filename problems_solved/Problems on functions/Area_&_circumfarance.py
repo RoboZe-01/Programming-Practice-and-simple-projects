@@ -9,3 +9,6 @@
 # Make input funtion 
 
 Radius = int(input(" Enter the radius : "))
+area = print(f'The Area the circle with given Radius {Radius} is {3.14*Radius**2} ')
+
+Circumferance = print(f'The circumferance of the circle with given Radius {Radius} is {2*3.14*Radius}')
