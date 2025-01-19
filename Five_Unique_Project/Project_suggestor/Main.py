@@ -1,41 +1,35 @@
 
-###Here are the questions you can ask to gather the necessary information to personalize the project suggestions:
+# I am currently working on the input part of the project
+# it is basic testing of the program  
 
-# What type of project would you prefer?
-# (Options: Challenging, Simple, Creative, Learning-focused)
 
-# What is the level of complexity you're comfortable with?
-# (Options: Beginner, Intermediate, Advanced)
 
-# Would you prefer to build something from scratch or work on an existing project?
-# (Options: From scratch, Modify an existing project)
 
-# What technologies or tools are you most interested in using?
-# (Options: Python, Machine Learning, Web Development, Robotics, AI, Data Science, etc.)
 
-# What’s your preferred project outcome?
-# (Options: A working prototype, A detailed report, A research paper, A presentation)
 
-# Are you interested in collaborating with others for this project or prefer to work independently?
-# (Options: Collaborate with others, Work independently)
+focus = input("Specify your area of interest : ")
+involve = input("Specify technologies or libraries : ")
+dificulty_level = input("Enter the difficulty level you want : (Easy / Medium / Hard ) : ")
+goal = input("Specify if you're looking for projects with a well-defined outcome : ")
+learning = input("Specify your learning goals, e.g., beginners, intermediate learners, portfolio projects, personal projects")
+functionalities = input("Specify any specific features or functionalities, e.g., real-time data processing, image recognition, natural language processing : ")
+goal = input("Specify if you're looking for projects with a well-defined outcome, e.g., building a web application, training a model, creating a game : ")
 
-# What is your motivation for this project?
-# (Options: Building a portfolio, Gaining hands-on experience, Preparing for a job interview, Learning new skills)
+final_prompt =f"""
 
-# How would you like to showcase your project once it’s done?
-# (Options: GitHub, Personal website, LinkedIn, Public demo, No showcase)
+Find me Python projects that:
 
-# Do you have a specific industry or domain where you want to apply this project?
-# (Options: Web Development, Machine Learning, Robotics, Data Science, AI, Electronics, Mechanical Engineering, etc.)
+* **Focus on:** {focus}
+* **Involve:** {involve}
+* **Difficulty Level:** {dificulty_level}
+* **Have a clear goal:** {goal}
+* **Are suitable for:** {learning}
+* **Incorporate:** {functionalities}
 
-# What primary challenge do you want to tackle through this project?
-# (Options: Gaining hands-on experience, Developing problem-solving skills, Enhancing technical knowledge, Building a product)
+Provide a list of 5-10 project ideas with brief descriptions and links to relevant tutorials or resources if available."""
 
-# Would you prefer the project to have a direct impact on your career or just be a learning experience?
-# (Options: Career-focused, Learning-focused)
 
-# Do you want the project to be part of a larger, long-term goal (e.g., portfolio, startup idea)?
-# (Options: Yes, No)
+print(final_prompt)
 
-# These questions will help you personalize project suggestions based on the user’s preferences and skill level ###
 
+# Thus a simple promt is generated 
