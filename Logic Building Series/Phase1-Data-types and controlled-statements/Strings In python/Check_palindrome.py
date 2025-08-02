@@ -16,6 +16,11 @@ def reverse_str (x):          # Function defination
 a = input("Enter the string to check Palindrome : ")
 
 while True:
+    a = input("Enter the string to check Palindrome : ")
+
+    if a.lower() =="exit":
+        print("Exiting the program, Have a good day")
+        break
 
     if a == reverse_str(a):
         print(" This is palindrome")
