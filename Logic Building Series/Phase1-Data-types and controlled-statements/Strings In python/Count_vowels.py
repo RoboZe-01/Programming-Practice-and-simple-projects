@@ -7,7 +7,7 @@
 
 # Making a global varible for vowels
 
-vowels = ('a','e','i','o','u')
+vowels = ('a','e','i','o','u','A','E','I','O','U')
 
 while True :                                                     # Loop to make the programmew work till user exit the programme
     var = input("Enter to count the wels (to exit press Y) : ")
