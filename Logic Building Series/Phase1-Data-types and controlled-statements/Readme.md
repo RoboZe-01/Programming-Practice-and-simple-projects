@@ -1,4 +1,4 @@
-✅ Phase 1: Fundamentals + Data Types & Control Flow (Days 1–10)
+ko✅ Phase 1: Fundamentals + Data Types & Control Flow (Days 1–10)
 Goal: Build strong foundations in thinking with variables, lists, conditions, loops.
 
 Topics:
@@ -223,4 +223,4 @@ Pro Tip:
 
 ---
 
-
+you will find and do this daily
